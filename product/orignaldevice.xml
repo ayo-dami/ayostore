@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+<phones>
+	<phone id="123" price="999.99" version="10">
+		 <detail>
+		    <title>iPhone X</title>
+		    <company>Apple</company>
+		    <price>£999.99</price>
+		    <year>2017</year>
+		</detail>
+	</phone>
+
+	 <samsung>   
+	    <title>Samsung S8</title>
+	    <company>Samsung</company>
+	    <price>£599.99</price>
+	    <year>2017</year>
+	</samsung> 
+
+	<google>   
+	    <title>Google XL</title>
+	    <company>Google</company>
+	    <price>£499.99</price>
+	    <year>2017</year>
+	</google> 
+
+
+
+</phones>

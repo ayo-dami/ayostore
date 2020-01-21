@@ -1,0 +1,555 @@
+body { background:; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif;}
+
+h1 {
+	display: block;
+	font-size:25px;
+	font-weight:bold;
+}
+
+h2 {
+	display: block;
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+#header {
+
+	background-image:url(../img/banner.png);
+	color:#fff;
+	height:200px;
+	width: 100%;
+	padding-top:50px;
+	text-align: center;
+	margin-bottom: 5px;
+
+	}
+
+#top {
+
+	margin:10px auto;
+	padding: 10px 20px;
+	width:1310px;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#B93A32;
+	border: 1px solid #DCDCDC; 
+	display:block;
+	border: 1px solid #DCDCDC; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #F8F8F8;
+}	
+
+
+#container {
+
+	background:#fff;
+	padding:0px 0px;
+	margin:0px auto 0px auto;
+	width:1350px;
+
+	display:block;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #DCDCDC; 
+	
+	
+	box-shadow: 5px 5px 5px #F8F8F8;
+}
+
+.container-bottom {
+
+	background:#fff;
+
+	margin:0px auto;
+	display: inline-block;
+	width:1350px;
+
+
+
+	border: 1px solid #DCDCDC; 
+	
+	
+	box-shadow: 5px 5px 5px #F8F8F8;
+	}
+
+#slideshow {
+	margin:0;
+	padding:0;
+}
+
+#caption {
+	top:87.5%;
+	position:absolute;
+	font-size: 15px;
+	 /* absolute position (so we can position it where we want)*/
+	 /* position will be on bottom */
+	left:0px;
+	width:100%;
+	padding:5px 0;
+	margin:25px auto;
+	text-align: center;
+	/* styling bellow */
+	 background-color: rgba(0, 0, 0, 0.7);
+	width:100%;
+	color:#fff;
+	transition: 0.6s ease;
+	
+	/*opacity:0.6; /* transparency */
+	 /*filter:alpha(opacity=60);  IE transparency */
+}
+
+#skiptag {
+	position:absolute;
+	top:0.1%;
+	left:0%;
+	padding:4px 4px 0px 4px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+#setImage {
+	top:86%;
+	left:91%;
+	position: absolute;
+	margin:10px auto;
+	width:100px;
+	text-align: center;
+}
+
+#moveImg {
+	margin:0px auto 10px auto;
+	width:1350px;
+	text-align: center;
+
+
+}
+#orders {
+	width:70%;  
+	
+	padding:0px 0px; 
+	box-shadow: 5px 5px 5px #F8F8F8; margin:0 auto;
+}
+
+#Tab1 {
+	height:100%; border: 1px solid #DCDCDC;
+	width:60%;
+}
+
+#Tab2 {
+	height:100%; border: 1px solid #DCDCDC;
+	width:60%;
+}
+
+#Tab3 {
+	height:100%; border: 1px solid #DCDCDC;
+	width:60%;
+}
+
+#footer {
+	float:left;
+	display:block;
+	width:100%;
+	background-color: #B93A32;
+	text-align:center;
+	padding:15px 0;
+	color:#fff;
+	font-size:15px;
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+#footer-home {
+	float:left;
+	display:block;
+	width:100%;
+	background-color: #B93A32;
+	text-align:center;
+	padding:15px 0;
+	color:#fff;
+	font-size:15px;
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+
+
+img{
+  max-width:100%;
+}
+
+.button-style {
+	background-color:#B93A32; 
+	color:#fff;
+	border-width:0px;
+	border-color:#000;
+	cursor: pointer;
+}
+
+.captcha-style {
+	background-color:#ccc; 
+	text-align: 
+	center;
+	user-select: none;
+}
+
+.title {
+	text-align:center;
+	font-size: 40px;
+	font-weight: bold;
+	color:#B93A32;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+}
+
+.title-sub {
+	text-align:center;
+	font-size: 20px;
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+.row {
+	margin:0px auto;
+	padding:0px 0px;
+	width:1350px;
+
+	
+}
+.column1 {
+    float: left;
+    position:relative;
+    width: 85%;
+}
+
+.column2 {
+    float: left;
+    width: 15%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.setimage_btn {
+	height:10px;
+	width:10px;
+	display: inline-block;
+	border-radius:50%;
+	background-color: #fff;
+	cursor: pointer;
+	border: 2px solid #B93A32;
+}
+
+.activeDot, .setimage_btn:hover {
+	background-color:#B93A32;
+}
+
+.cursorpointer {
+	cursor: pointer;
+}
+
+.left, .right {
+	cursor: pointer;
+	position: absolute;
+	top:45%;
+	border:none;
+	background-color:#B93A32;
+	color:#fff;
+	font-weight: bold;
+  	font-size: 18px;
+ }
+
+ .left:hover, .right:hover {
+ 	background-color:#FFF;
+ 	color:#B93A32;
+ }
+
+.left {
+	border-radius: 0 3px 3px 0;
+}
+
+.right {
+	right: 0;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
+
+.transition {
+	transition: 0.2s ease;
+}
+
+.tab {
+    overflow: hidden;
+    width:100%;
+
+    
+    background-color: #B93A32;
+    color:#fff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+     color:#fff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #B93A32;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #000;
+    color:#fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    width:60%;
+    border-top: none;
+    float:left;
+
+}
+
+.form-style {
+	width:50%;
+}
+  
+
+ul.nav {
+	
+	margin: 0 auto;
+	
+	overflow:hidden;
+	background-color: #B93A32;
+	
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;
+	text-transform: uppercase; 
+	
+}
+
+ul.nav li {display: inline-block;  padding:0 20px; text-align:center; color:#fff;}
+
+ul.logo {
+	padding:0;
+}
+
+ul.nav li a { 
+	display:block;
+	text-align:center;
+	padding: 15px 20px;
+	text-decoration: none; 
+	color:#fff;}
+
+ul.nav li a:hover {
+	background-color:#fff;
+	color:#B93A32;
+}
+
+ul.nav li a:active {
+	background-color:#fff;
+	color:#B93A32;
+}
+
+ul.nav li.right {float: right;}
+
+table {
+	margin:0px 0px 0px 0px;
+	padding: 3px 5px;
+	width:;
+	font-size:12px;
+
+}
+
+td {
+	padding:0px 0px;
+	margin:0px 0px;
+    border: 2px solid #fff;
+    background-color:#fff;
+}
+
+
+/*class="thumb-tab activeThumb" */
+.activeThumb , .thumb_tab:hover {
+	opacity: 0.2;
+	background-color:#B93A32;
+    cursor: pointer;
+}
+.sidebar {
+	float:left; 
+	width:35%;
+}
+
+
+/*Extras for Product page*/
+.product-container {
+	margin:15px auto; 
+	text-align:center;  
+	border: 1px solid #DCDCDC; 
+	width:70%; 
+	padding:25px 0px; 
+	box-shadow: 5px 5px 5px #F8F8F8;
+
+}
+
+.product-box {
+	display: inline-block;
+	vertical-align:top;
+	margin: 0 5px;
+}
+.product-case {
+	 border: 1px solid #ccc;
+	 margin: 5px 2.5px 5px 2.5px;
+}
+
+ul.product {
+	float:left;
+	
+	margin:0px;
+	padding:0px;
+}
+
+ul.product li{
+    
+	display: inline-block;
+	text-align: center; 
+	display: inline-block; 
+}
+
+ul.product li a{
+	text-decoration: none;
+	color:#B93A32;
+	}
+
+/*Phone compatibility*/
+@media screen and (max-width: 700px){
+	#container {width:100%;}
+	ul.nav li{display:block;}
+    ul.nav li.right, 
+    ul.nav li {float: none;}
+
+
+    #top { 
+    	display:none;
+    }
+    
+    #setImage {
+    	position:initial;
+    }
+    #orders {
+    	width:100%;
+    	text-align: center;
+    }
+
+    #Tab1, #Tab2 ,#Tab3 {
+    	width:95%;
+    	margin:0 auto;
+    	border:0px;
+    	padding:5px;
+    }
+
+    #footer-home {
+    	position:absolute;
+    	bottom: 0;
+    	left: 0;
+    }
+
+    #footer {
+    	float:left;
+    	
+    	position:initial;
+    	width: 100%; 
+    	bottom: 0;
+    	left: 0;
+    }
+    .tab {
+    	margin: auto;
+    	text-align: center;
+    }
+
+    .column1 { 
+	    float: left;
+	    position: fixed;
+	    width: 100% 
+		}
+
+	.column2 {
+		display:none;
+	}	
+    .right {
+    
+   
+   background-color: #B93A32;
+	}
+
+	.left {
+	    
+	   
+	    background-color: #B93A32;
+	}
+
+	.row {
+		margin:25px auto;
+		margin:0 auto;
+		width:1350px;
+	}
+
+	.product-container {
+		width:100%;
+	}
+
+	.sidebar {
+		width:100%;
+	}
+	.form-style {
+		width:100%;
+	}
+
+
+
+
+}
+
+

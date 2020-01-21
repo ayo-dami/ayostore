@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ayo's Store</title>
+	<link rel="stylesheet" href="stylesheet/styles.css">
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!--Navigation-->
+<ul class="nav">
+	<li class="nav"><a href="index.html">Home</a></li>
+	<li><a href="product/devices.xml">Products</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="report.html">Report</a></li>
+</ul>
+
+<!--header-->
+<div id="header">
+	<div class="title">Ayo's <br>Electronic World</br></div>
+	<div class="title-sub">The Number one online store.</div>
+	<img src="img/stars.png" height="25"/>
+</div>
+<div id="top"><!-- <img src="img/home.png" width="25px" height="20px"/>  -->Orders  
+</div>
+<div id="orders">
+
+<!-- content -->
+<div class="tab">
+  <button class="not-active tablinks active" onclick="openTab(event, 'Tab1'); Captcha();" id="defaultOpen">Pick Your Products</button>
+  <button class="not-active tablinks" onclick="openTab(event, 'Tab2'); Captcha();">Enter Your Details</button>
+  <button class="not-active tablinks" onclick="openTab(event, 'Tab3')">Confirm Detail and Check Out</button>
+</div>
+
+
+<div id="Tab1" class="tabcontent">
+
+<ul class="product">
+	<h1>Products</h1>
+	Please select the products you will like to purchase.<br>		
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Apple iPhone" data-price="999.99">
+	<img src="product/img/iphonex.jpg"/><br/>Apple iPhoneX | £999.99</a></li>
+
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Samsung Galaxy S9" data-price="599.99">
+	<img src="product/img/samsung.jpg"/><br/>Samsung Galaxy S9 | £599.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Google Pixel" data-price="699.99">
+	<img src="product/img/google.jpg"/><br/>Google Pixel | £699.99</a></li>
+<br>
+<li class="product-case"><a class="add-to-cart" href="#" data-name="drone" data-price="450.65">
+	<img src="product/img/drone.jpg"/><br/>Drone | £450.65</a></li>
+
+
+<h1> Gaming Pcs </h1>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Origin BEAST" data-price="545.90">
+	<img src="product/img/origin.jpg"/><br/>Origin BEAST | £545.90</a></li>
+
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Alienware PLUS" data-price="850.00">
+	<img src="product/img/alienware.jpg"/><br/>Alienware PLUS | £850.00</a></li>
+
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Razer Nocturn" data-price="445.00">
+	<img src="product/img/razer.jpg"/><br/>Razer Nocturn | £445.00</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Gateway Ultra" data-price="999.99">
+	<img src="product/img/gateway.jpg"/><br/>Gateway Ultra | £999.99</a></li>
+
+<h1> Drones </h1>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="UAV heavy lifter" data-price="295.90">
+	<img src="product/img/uav.jpg"/><br/>UAV heavy lifter | £295.90</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Quad Cop" data-price="345.00">
+	<img src="product/img/quad.jpg"/><br/>Quad Cop | £345.00</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="RC Drone" data-price="255.00">
+	<img src="product/img/rcdrone.jpg"/><br/>RC Drone | £255.00</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Phanthom Black" data-price="779.99">
+	<img src="product/img/phanthom.jpg"/><br/>Phanthom Black | £779.99</a></li>
+
+
+<h1> Phones </h1>
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Samsung J3" data-price="575.50">
+	<img src="product/img/samsungj3.jpg"/><br/>Samsung J3 | £575.50</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Alcatel Pixi" data-price="99.99">
+	<img src="product/img/alcatelpixi.jpg"/><br/>Alcatel Pixi | £99.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Blu" data-price="399.99">
+	<img src="product/img/blu.jpg"/><br/>Blu | £399.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Moto Moto G5 Plus" data-price="499.99">
+	<img src="product/img/moto.jpg"/><br/>Moto Moto G5 Plus | £499.99</a></li>
+
+
+<h1> Tvs </h1>
+<li class="product-case"><a class="add-to-cart" href="#" data-name="LG 43UJ630" data-price="655.99">
+	<img src="product/img/lg.jpg"/><br/>LG 43UJ630 | £655.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Samsung UE40MU6120" data-price="99.99">
+	<img src="product/img/samsungtv.jpg"/><br/>Samsung UE40MU6120 | £99.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="TOSHIBA" data-price="399.99">
+	<img src="product/img/toshiba.jpg"/><br/>TOSHIBA | 399.99</a></li>
+
+<li class="product-case"><a class="add-to-cart" href="#" data-name="Light Wave i7 Plus" data-price="499.99">
+	<img src="product/img/lightwave.jpg"/><br/>Light Wave i7 Plus| 499.99</a></li>
+</ul><!-- product -->
+
+
+<input class="button-style" type="submit" id="firstTab" value="Submit">
+</div>
+	
+
+<!--Tab Two -->
+<!-- <div id="tab2" style="width:50%;" class="tab"> -->
+<div id="Tab2" class="tabcontent">
+ 
+<h1>Details</h1>
+<!-- form -->
+
+<form id="orderForm" class="form-style" name="orderForm"  action="">
+<h2 id="result"></h2>
+<h2 id="noticeEmail"></h2>
+<h2 id="noticeNo"></h2>
+<h2 id="addressNo"></h2>
+<h2 id="noticeAddress"></h2>
+<h2 id="noticCard"></h2>
+<h2 id="noticeCapt"></h2>
+
+	<p>First name*: 
+	<input id="fname" type="text" style="width:100%;" required></p>
+	<p>Last name*: 
+	<input id="lname" type="text" style="width:100%;" required></p>
+	
+	<!-- Email -->
+	<p>Email Address*:
+	<input type="email" style="width:100%;" id="email" placeholder="ayostore@ayomail.com" maxLength="64" required></p>
+
+	<!-- Phone number -->
+	<p>Phone number*:
+	<input style="width:100%;"  id="phoneNo" type="text" tilte="Must have a country code (+44) follow by 12 digits" required /></p>
+	<p>
+	
+	<!-- title -->
+	<p>Select prefered title:
+	<select id="title" name="title">
+    <option value="Mr">Mr</option>
+    <option value="Mrs">Mrs</option>
+    <option value="Master">Master</option>
+    <option value="Ms">Ms</option>
+  	</select></p>
+	<!-- Date of Birth -->
+	<p>Enter a date of birth:
+	<input type="date" name="bday" max="2018-01-01">
+	</p>
+	
+	<!-- gender -->
+	<p>Please specify your gender: <br><br>
+  	<input type="radio" name="gender" value="male" checked> Male<br>
+ 	<input type="radio" name="gender" value="female"> Female<br>
+  	<input type="radio" name="gender" value="other"> Other
+  	</p>
+	<!-- delivery address -->
+	<p>Address Line 1*: <input style="width:100%;" id="ad1" type="text" name="address"></p>
+	<p>Address Line 2: <input style="width:100%;" id="ad2" type="text" name="address"></p>
+
+	<!-- postcode -->
+	<p>PostCode*: <input style="width:20%;" type="text" id="postCode" maxlength="10"> 
+
+		<!-- <input style="width:20%;" type="text" name="usrname" maxlength="4"> --></p>
+
+	<p><label>Payment Method </label><select name="payment" onChange="displayPayment();"/>
+		<option value="cash">Debit Card</option>
+		<option value="credit">Credit Card</option>
+	</select></p>
+	<p><label>Card Number*: </label><input type="text" id="card"/></p>
+
+	<!-- captcha -->
+	Capatcha
+	<div class="capt"> 
+   	<h1 class="captcha-style" type="text" id="mainCaptcha"></h1>
+
+   	<p></p>           
+   	<input type="text" id="txtInput"/> 
+   	<input class="button-style" type="button" value="New Captcha" onClick="Captcha();"> 
+   	  
+   	<input class="button-style" id="Button1" type="button" value="Check Captcha" onclick="ValidCaptcha();"/>
+   	</div>
+	<p></p> 
+	<input class="button-style" type="button" id="defaultab" value="Back to picking items">
+	<input class="button-style" type="button" onClick="resetEntry(); Captcha();" value="Reset">
+	<p></p>
+	<input class="button-style" type="submit" id="validinput" value="Checkout and Confirm Details">
+
+	
+</form>
+<br>
+</div><!-- tab two -->
+<!-- Tab Two -->
+<div id="Tab3" class="tabcontent"> 
+	
+<!-- <div id="tab3" class="tab"> -->
+	<div id="tabprint">
+	<h1>Confirm</h1>
+	<h2>Delivery Address</h2>
+	<h2 id="displayName"></h2>
+	<h2 id="displayEmail"></h2>
+	<h2 id="displayAddress"></h2>
+	<h2 id="displayPostCode"></h2>
+	<h2>Items to be delivered</h2>
+	<h2 id="view-cart"></h2>
+	<h2>Total cost: <span id="view-total"></span></h2>
+	</div>
+	<br />
+
+	<!-- save information to file -->
+	<div id="editor"></div>
+	<button class="button-style" id="cmd">Confirm and Download Receipt</button>
+	
+</div><!-- tab three -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+<!-- Sidebar -->
+<div class="sidebar" >
+	
+	<fieldset>
+		<legend><h1>Shopping Cart</h1></legend>
+	<ul id="show-cart"></ul>
+	Total Cart: £<span id="total-cart"></span>
+	<br/>
+	<button class="button-style" id="clear-cart">Clear Cart</button>
+
+</fieldset>
+</div><!--sidebar-->
+</div><!-- tab content -->
+
+
+
+
+<script type="text/javascript" src="js/orders.js"></script>
+	<script type="text/javascript" src="js/formvalidation.js"></script>
+<script type="text/javascript" src="js/captcha.js"></script>
+<script type="text/javascript" src="js/shoppingcart.js"></script>
+<br>
+<!-- footer-->
+<div id="footer">
+	© Copyright Ayo Web store 2017
+</div>	
+</body>
+</html>

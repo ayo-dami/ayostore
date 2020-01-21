@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+<product>
+	 <iphone id="123" name="iphone" price="999.99" year="2017" version="10">
+	    <title>iPhone X</title>
+	    <company>Apple</company>
+	    <price>£999.99</price>
+	    <year>2017</year>
+	</iphone>
+
+	 <samsung id="456" name="samsung" price="599.99" year="2017" version="8">  
+	    <title>Samsung S8</title>
+	    <company>Samsung</company>
+	    <price>£599.99</price>
+	    <year>2017</year>
+	</samsung> 
+
+	<google id="789" name="google" price="499.99" year="2017" version="5"> 
+	    <title>Google XL</title>
+	    <company>Google</company>
+	    <price>£499.99</price>
+	    <year>2017</year>
+	</google> 
+
+<!-- pcs -->
+	<pcs>
+		
+			<image>origin.jpg</image>
+			<title>Origin BEAST</title>
+			<type>Gaming</type>
+			<country>USA</country>
+			<company>Origin</company>
+			<price>545.90</price>
+			<year>2018</year>
+		
+	</pcs>
+
+	<pcs>
+		
+			<image>alienware.jpg</image>
+			<title>Alienware PLUS</title>
+			<type>Gaming</type>
+			<country>USA</country>
+			<company>Alienware</company>
+			<price>850.00</price>
+			<year>2017</year>
+		
+	</pcs>
+
+	<pcs>
+		
+			<image>razer.jpg</image>
+			<title>Razer Nocturn</title>
+			<type>Gaming</type>
+			<country>USA</country>
+			<company>Razer</company>
+			<price>445.00</price>
+			<year>2018</year>
+		
+	</pcs>
+	<pcs>
+	
+			<image>gateway.jpg</image>
+			<title>Gateway Ultra</title>
+			<type>Gaming</type>
+			<country>USA</country>
+			<company>Gateway</company>
+			<price>999.99</price>
+			<year>2018</year>
+		
+	</pcs>
+
+
+<!-- drones -->
+	<drones>
+		
+			<image>uav.jpg</image>
+			<title>UAV heavy lifter</title>
+			<type>Heavy lifter</type>
+			<country>USA</country>
+			<company>UAV</company>
+			<price>295.90</price>
+			<year>2018</year>
+		
+	</drones>
+
+	<drones>
+		
+			<image>quad.jpg</image>
+			<title>Quad Cop</title>
+			<type>Speed</type>
+			<country>USA</country>
+			<company>Quad Cop</company>
+			<price>345.00</price>
+			<year>2015</year>
+		
+	</drones>
+
+	<drones>
+		
+			<image>rcdrone.jpg</image>
+			<title>RC Drone</title>
+			<type>Recording</type>
+			<country>USA</country>
+			<company>RC</company>
+			<price>255.00</price>
+			<year>2016</year>
+		
+	</drones>
+	<drones>
+		
+			<image>phanthom.jpg</image>
+			<title>Phanthom Black</title>
+			<type>Vlogging</type>
+			<country>USA</country>
+			<company>phanthom</company>
+			<price>779.99</price>
+			<year>2017</year>
+		
+	</drones>
+<!-- drones -->
+	<phones>
+		
+			<image>samsungj3.jpg</image>
+			<title>Samsung J3</title>
+			<type>Smart Phone</type>
+			<country>South Korea</country>
+			<company>Samsung</company>
+			<price>575.50</price>
+			<year>2016</year>
+		
+	</phones>
+
+	<phones>
+		
+			<image>alcatelpixi.jpg</image>
+			<title>Alcatel Pixi</title>
+			<type>Smart Phone</type>
+			<country>China</country>
+			<company>Alcatelp</company>
+			<price>99.99</price>
+			<year>2015</year>
+		
+	</phones>
+
+	<phones>
+		
+			<image>blu.jpg</image>
+			<title>Blu</title>
+			<type>Smart Phone</type>
+			<country>India</country>
+			<company>Blu Corp</company>
+			<price>399.99</price>
+			<year>2016</year>
+		
+	</phones>
+
+	<phones>
+		
+			<image>moto.jpg</image>
+			<title>Moto Moto G5 Plus</title>
+			<type>Smart Phone</type>
+			<country>USA</country>
+			<company>Moto inc.</company>
+			<price>499.99</price>
+			<year>2017</year>
+		
+	</phones>	
+		<tvs>
+		
+			<image>lg.jpg</image>
+			<title>LG 43UJ630</title>
+			<type>Smart TV</type>
+			<country>United Kingdom</country>
+			<company>LG</company>
+			<price>655.99</price>
+			<year>2016</year>
+		
+	</tvs>
+
+	<tvs>
+
+			<image>samsungtv.jpg</image>
+			<title>Samsung UE40MU6120</title>
+			<type>Smart TV</type>
+			<country>China</country>
+			<company>Samsung</company>
+			<price>99.99</price>
+			<year>2015</year>
+		
+	</tvs>
+
+	<tvs>
+		
+			<image>toshiba.jpg</image>
+			<title>TOSHIBA</title>
+			<type>Smart Phone</type>
+			<country>India</country>
+			<company>Toshiba Corp</company>
+			<price>399.99</price>
+			<year>2016</year>
+		
+	</tvs>
+
+	<tvs>
+		
+			<image>lightwave.jpg</image>
+			<title>Light Wave i7 Plus</title>
+			<type>Smart TV</type>
+			<country>USA</country>
+			<company>lightwave inc.</company>
+			<price>499.99</price>
+			<year>2017</year>
+		
+	</tvs>
+</product>
+
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ayo's Store</title>
+	<link rel="stylesheet" href="stylesheet/styles.css">
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+
+	<style>
+	.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+	</style>
+</head>
+
+<body>
+<!--Navigation-->
+<ul class="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="product/devices.xml">Products</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="report.html">Report</a></li>
+	</ul>
+
+<!--header-->
+<div id="header">
+	<div class="title">Ayo's <br>Electronic World</br></div>
+	<div class="title-sub">The Number one online store.</div>
+	<img src="img/stars.png" height="25"/>
+</div>
+
+
+
+<!-- content -->
+<div id="container">
+<div class="tabs">
+	<ul class="tab-links">
+		<li class="active"><a href="#tab1">Tab #1</a></li>
+		<li><a href="#tab2">Tab #2</a></li>
+		<li><a href="#tab3">Tab #3</a></li>
+	</ul>
+
+	<div class="tab-content">
+            <div id="tab1" class="active">
+                <span></span>
+                <ul class="product">
+                <li><a class="add-to-cart" href="#" data-name="Apple iPhone" data-price="999.99">
+                    <img src="product/img/iphonex.jpg"/><br/>Apple iPhoneX | £999.99</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Samsung Galaxy S9" data-price="599.99">
+                    <img src="product/img/samsung.jpg"/><br/>Samsung Galaxy S9 | £599.99</a></li><br />
+                <li><a class="add-to-cart" href="#" data-name="Google Pixel" data-price="699.99">
+                    <img src="product/img/google.jpg"/><br/>Google Pixel | £699.99</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Drone" data-price="450.65">
+                    <img src="product/img/drone.jpg"/><br/>Drone | £450.65</a></li>
+            </ul>
+            </div>
+		
+        <div id="tab2" class="tab">
+          
+            <h3>Items</h3>
+            <form onsubmit="validationForm()">
+            Email name:<br>
+            <input type="text">
+            <br>
+            <input type="submit">
+            </form>
+
+            <form action="page2.html">
+            First name:<br/>
+            <input type="text" name="firstname" required>
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname">
+            <br>
+            Phone number:<br>
+            <input pattern="[+][0-9]{12}" name="phonenumber" type="text" tilte="Must have a country code (+44) follow by 12 digits" required />
+            <br/>
+            <input type="submit" value="Submit">
+            </form>
+            <br>
+            
+
+            <script>
+                function validationForm() {
+                var x = document.forms["accountForm"]["Firstname"].value;
+                    if (x == null || x == "") {
+                    alert("first name must be filled out");
+                    return false;
+                    }
+                }
+            </script>   
+        </div>  
+
+		<div id="tab3" class="tab">
+            test2<br>
+            Confirm payment <br>
+            Captcha
+        </div>
+	</div>
+
+</div>
+<script>
+jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+});
+</script>
+
+
+</div>
+
+<!-- footer-->
+<div id="footer">
+	© Copyright Ayo Web store 2017
+</div>	
+</body>
+</html>

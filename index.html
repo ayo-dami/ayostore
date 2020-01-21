@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ayo's Store</title>
+		<link rel="stylesheet" href="stylesheet/styles.css">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<script type="text/javascript" src="js/slideshow.js"></script>
+	</head>
+	<body>
+		<!--Navigation-->
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="product/devices.xml">Products</a></li>
+			<li><a href="order.html">Order</a></li>
+			<li><a href="report.html">Report</a></li>
+		</ul>
+		<!--header-->
+		<div id="header">
+			<div class="title">Ayo's <br>Electronic World</br></div>
+			<div class="title-sub">The Number one online store.</div>
+			<img src="img/stars.png" height="25"/> 
+		</div>
+		<!-- slider -->
+		<!-- content -->
+		<div id="top"><!-- <img src="img/home.png" width="25px" height="20px"/>  -->Home Page  </div>
+
+		<div class="row fade">
+		  <div class="column1">
+		  	<img id="img1" class="transition" src="js/images/image1.jpg">
+
+		  	<!-- left & right arrow -->	
+		  	<button class="left" onclick="MoveImg(-1);">&#10094;</button>
+			<button class="right" onclick="MoveImg(+1);">&#10095;</button>
+		  	<!-- set image -->
+		  	<div id="setImage">
+				<span class="setimage_btn activeDot" onclick="setImage(0);"></span>
+				<span class="setimage_btn" onclick="setImage(1);"></span>
+				<span class="setimage_btn" onclick="setImage(2);"></span>
+				<span class="setimage_btn" onclick="setImage(3);"></span>
+				<span class="setimage_btn" onclick="setImage(4);"></span>
+			</div>
+
+			<!-- set caption -->
+		  	<div id="caption">Hello and Welcome to the worlds best Electronic website </div>
+		  	<div id="skiptag">
+		  		<img class="cursorpointer" width="25" src="img/firstimg.png" onClick="setImage(0);"/>
+				<img class="cursorpointer" width="25" src="img/random.png" id="test" onClick="randomImage();"/>
+				<img class="cursorpointer" width="25" src="img/lastimg.png" onClick="setImage(4)"/>
+				
+			</div>
+		  </div>
+
+		  <!-- captions -->
+		  <div class="column2"> 
+			<table class="thumbnail">
+				<tr>
+					<th>LATEST NEWS <br>	
+					</th> 
+				</tr>
+			  	<tr><td class="thumb_tab activeThumb">
+			  		<img id="imgAll" onclick="setImage(0);" 
+				src="js/images/image1.jpg">
+				</td></tr>
+
+				<tr><td class="thumb_tab">
+					<img id="imgAll" onclick="setImage(1);" 
+					src="js/images/image2.jpg">
+				</td></tr>
+
+				<tr><td class="thumb_tab">
+					<img id="imgAll" onclick="setImage(2);" 
+					src="js/images/image3.jpg">
+				</td></tr>
+
+				<tr><td class="thumb_tab">
+					<img id="imgAll" onclick="setImage(3);" 
+					src="js/images/image4.jpg">
+				</td></tr>
+
+				<tr><td class="thumb_tab">
+					<img id="imgAll" onclick="setImage(4);" 
+					src="js/images/image5.jpg"></li>
+				</td></tr>
+
+			</table>
+		  </div>
+		</div>
+
+
+		<!-- footer-->
+		<div id="footer-home">
+		©Copyright Ayo Hardware store 2017
+		</div>	
+	</body>
+</html>
